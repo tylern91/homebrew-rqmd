@@ -1,16 +1,24 @@
 # homebrew-rqmd
 
-Homebrew tap for [rqmd](https://github.com/tylern91/rqmd) — hybrid local document search (BM25 + vector + reranker + LLM query expansion) in a single static binary.
+Tyler Nguyen's Homebrew tap for [rqmd](https://github.com/tylern91/rqmd) — a Rust-based hybrid search CLI for local documents.
 
 ## Install
 
 ```sh
 brew tap tylern91/rqmd
+brew trust tylern91/rqmd  # required on Homebrew ≥4.5 (tap trust security feature)
 brew install rqmd
 ```
 
-## What is rqmd?
+## Upgrade
 
-`rqmd` indexes a directory of Markdown/text files and lets you query them with hybrid search (BM25 + vector similarity + Reciprocal Rank Fusion), optional reranking, and LLM-powered query expansion. No external services required — everything runs locally.
+```sh
+brew update && brew upgrade rqmd
+```
 
-See the [main repo](https://github.com/tylern91/rqmd) for full documentation.
+## Uninstall
+
+```sh
+brew uninstall rqmd
+brew untap tylern91/rqmd
+```
