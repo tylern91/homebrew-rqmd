@@ -18,18 +18,18 @@ class Rqmd < Formula
   on_macos do
     on_arm do
       # aarch64-apple-darwin (macOS, Apple Silicon)
-      url "https://github.com/tylern91/rqmd/releases/download/v0.10.4/rqmd-v0.10.4-aarch64-apple-darwin.tar.gz"
-      sha256 "e2a7f7d7701707bf003e0a12df34d586888bd181d141c80798b09bbd55997039"
-      version "0.10.4"
+      url "https://github.com/tylern91/rqmd/releases/download/v0.10.5/rqmd-v0.10.5-aarch64-apple-darwin.tar.gz"
+      sha256 "58c0788a60b3c17241e847010cfa7f93e52210af1f5d7f588e1d25e4e09b831c"
+      version "0.10.5"
     end
   end
 
   on_linux do
     on_intel do
       # x86_64-unknown-linux-gnu (Linux, Intel/AMD 64-bit)
-      url "https://github.com/tylern91/rqmd/releases/download/v0.10.4/rqmd-v0.10.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "372b17ecee183ef0ce4f4d38d61a730627655ea5b53c7a7b6610d08176985f6a"
-      version "0.10.4"
+      url "https://github.com/tylern91/rqmd/releases/download/v0.10.5/rqmd-v0.10.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "db809f6b73d0e0c5819f4d5b10674882d255e15a79d257c5bc2a0d8caa50f410"
+      version "0.10.5"
     end
   end
 
